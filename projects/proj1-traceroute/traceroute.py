@@ -87,6 +87,7 @@ class UDP:
 
 # TODO feel free to add helper functions if you'd like
 
+
 def traceroute(sendsock: util.Socket, recvsock: util.Socket, ip: str) \
         -> list[list[str]]:
     """ Run traceroute and returns the discovered path.
